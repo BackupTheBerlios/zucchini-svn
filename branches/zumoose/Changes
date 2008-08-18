@@ -1,0 +1,33 @@
+This file documents the revision history for Zucchini
+
+0.0.7   Tue Aug  5 20:10:56 BST 2008
+    - added HTML error checking (HTML::Lint)
+    - added missing --options to script/zucchini POD usage
+
+0.0.6   Thu May 22 08:56:06 BST 2008
+    - only show missing digest warnings if we're verbose enough
+    - only try to prepare remote FTP connection once
+    - better handling when trying to process a site that's not defined
+    - made some improvements for some cases that occur with new users
+    - added tutorial
+
+0.0.5   Fri May 16 09:10:57 BST 2008
+    - fixed fsync transfer with non-root 'path'
+
+0.0.4   Thu May 15 22:55:07 BST 2008
+    - added Contributors
+    - added lots of documentation for modules
+
+0.0.3   Wed May 14 20:24:15 BST 2008
+    - moved ttsite.original to legacy/
+    - no_index added for legacy/
+    - --version option added to script/zucchini
+    - added --create-config
+    - fixed tests to work with ::TestConfig
+
+0.0.2   2008-05-13 23:17:50 +0100
+    - fixed MANIFEST omissions
+
+0.0.1   2008-05-13 22:54:12 +0100
+    - Initial project release
+
